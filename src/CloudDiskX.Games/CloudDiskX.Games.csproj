@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CloudDiskX.Core\CloudDiskX.Core.csproj" />
+    <ProjectReference Include="..\CloudDiskX.Mount\CloudDiskX.Mount.csproj" />
+    <ProjectReference Include="..\CloudDiskX.Cache\CloudDiskX.Cache.csproj" />
+    <ProjectReference Include="..\CloudDiskX.Streaming\CloudDiskX.Streaming.csproj" />
+    <ProjectReference Include="..\CloudDiskX.Diagnostics\CloudDiskX.Diagnostics.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Diagnostics.EventLog" Version="10.0.12" />
+  </ItemGroup>
+</Project>

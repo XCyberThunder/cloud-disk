@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>cpx</AssemblyName>
+    <RootNamespace>CloudDiskX.Cli</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CloudDiskX.Core\CloudDiskX.Core.csproj" />
+    <ProjectReference Include="..\CloudDiskX.Diagnostics\CloudDiskX.Diagnostics.csproj" />
+    <ProjectReference Include="..\CloudDiskX.Mount\CloudDiskX.Mount.csproj" />
+    <ProjectReference Include="..\CloudDiskX.Providers\CloudDiskX.Providers.csproj" />
+    <ProjectReference Include="..\CloudDiskX.Cache\CloudDiskX.Cache.csproj" />
+    <ProjectReference Include="..\CloudDiskX.Streaming\CloudDiskX.Streaming.csproj" />
+    <ProjectReference Include="..\CloudDiskX.Games\CloudDiskX.Games.csproj" />
+    <ProjectReference Include="..\CloudDiskX.SimCloud\CloudDiskX.SimCloud.csproj" />
+    <ProjectReference Include="..\CloudDiskX.App\CloudDiskX.App.csproj" />
+  </ItemGroup>
+</Project>

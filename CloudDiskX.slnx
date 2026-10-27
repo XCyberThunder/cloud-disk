@@ -1,0 +1,23 @@
+<Solution>
+  <Folder Name="/benchmarks/">
+    <Project Path="benchmarks/CloudDiskX.Benchmarks/CloudDiskX.Benchmarks.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/CloudDiskX.App/CloudDiskX.App.csproj" />
+    <Project Path="src/CloudDiskX.Cache/CloudDiskX.Cache.csproj" />
+    <Project Path="src/CloudDiskX.Cli/CloudDiskX.Cli.csproj" />
+    <Project Path="src/CloudDiskX.Core/CloudDiskX.Core.csproj" />
+    <Project Path="src/CloudDiskX.Desktop/CloudDiskX.Desktop.csproj" />
+    <Project Path="src/CloudDiskX.Diagnostics/CloudDiskX.Diagnostics.csproj" />
+    <Project Path="src/CloudDiskX.Games/CloudDiskX.Games.csproj" />
+    <Project Path="src/CloudDiskX.Mount/CloudDiskX.Mount.csproj" />
+    <Project Path="src/CloudDiskX.Providers/CloudDiskX.Providers.csproj" />
+    <Project Path="src/CloudDiskX.SimCloud/CloudDiskX.SimCloud.csproj" />
+    <Project Path="src/CloudDiskX.Streaming/CloudDiskX.Streaming.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CloudDiskX.IntegrationTests/CloudDiskX.IntegrationTests.csproj" />
+    <Project Path="tests/CloudDiskX.Tests/CloudDiskX.Tests.csproj" />
+    <Project Path="tests/CpxDemoGame/CpxDemoGame.csproj" />
+  </Folder>
+</Solution>

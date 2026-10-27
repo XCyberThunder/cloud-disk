@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.4" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\CloudDiskX.Core\CloudDiskX.Core.csproj" />
+    <ProjectReference Include="..\..\src\CloudDiskX.Diagnostics\CloudDiskX.Diagnostics.csproj" />
+    <ProjectReference Include="..\..\src\CloudDiskX.Mount\CloudDiskX.Mount.csproj" />
+    <ProjectReference Include="..\..\src\CloudDiskX.Cache\CloudDiskX.Cache.csproj" />
+    <ProjectReference Include="..\..\src\CloudDiskX.Streaming\CloudDiskX.Streaming.csproj" />
+    <ProjectReference Include="..\..\src\CloudDiskX.Games\CloudDiskX.Games.csproj" />
+    <ProjectReference Include="..\..\src\CloudDiskX.Providers\CloudDiskX.Providers.csproj" />
+    <ProjectReference Include="..\..\src\CloudDiskX.SimCloud\CloudDiskX.SimCloud.csproj" />
+  </ItemGroup>
+</Project>
+
